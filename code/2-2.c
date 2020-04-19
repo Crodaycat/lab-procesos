@@ -17,7 +17,7 @@ int main(void) {
 
   buffer[readedBytesCount] = '\0';*/
 
-  if (pid == 0) {
+  if (pid != 0) {
     // printf("Proceso padre bytes leidos: %s\n", buffer);
     write(fileDescriptor, "Hola desde el proceso padre\n", strlen("Hola desde el proceso padre\n"));
   } else {

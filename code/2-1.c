@@ -6,7 +6,7 @@ int main(void) {
 
   int id = fork();
 
-  if (id == 0) {
+  if (id != 0) {
     x += 50;
     printf("Valor en el proceso padre de X: %d\n", x);
   } else {
