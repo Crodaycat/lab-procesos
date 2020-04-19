@@ -1,0 +1,3 @@
+Hola desde el proceso hijo
+Hola desde el proceso padre
+stemas operativos
